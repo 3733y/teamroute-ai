@@ -1,32 +1,38 @@
-# TeamRoute AI
+## TeamRoute AI
 
-Mid-Project Submission
+Final Project Submission
 
-## Project Description
+## Project Overview
 
-TeamRoute AI is an AI-assisted scheduling application designed to help university project teams find realistic meeting times.
+TeamRoute AI is an AI-assisted scheduling platform designed to help university project teams find realistic meeting times by considering schedules, travel time, transition buffers, and meeting constraints.
 
-Unlike traditional scheduling tools that require users to manually select available time slots, TeamRoute AI calculates availability based on existing schedules, travel time, and buffer time.
+## Key Features
 
-## Current Features
+* Team creation / joining / deletion
+* Team member management
+* Schedule registration / deletion
+* AI meeting recommendation
+* Online / Offline meeting modes
+* Fixed / Suggested location modes
+* Save / Delete meetings
 
-* Team creation
-* Team deletion
-* Team joining via team code
-* Schedule registration
-* Schedule deletion
-* Meeting recommendation prototype
-* Travel-time-aware availability calculation
+## Tech Stack
 
-## How to Run
+* React
+* TypeScript
+* Vite
 
-Open `preview.html` to run the prototype.
+## Live Demo
 
-No additional installation is required for the preview version.
+Vercel Deployment:https://teamroute-ai.vercel.app/
 
-## Current Status
+## GitHub Repository
 
-This is a mid-project prototype implementation.
+https://github.com/3733y/teamroute-ai
 
-Future development will focus on improving recommendation quality, scheduling logic, and user experience.
+## Local Execution
 
+Run locally using:
+
+npm install
+npm run dev
